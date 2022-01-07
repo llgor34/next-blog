@@ -1,0 +1,44 @@
+.nav {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fcfafa;
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-left: var(--nav-x-margin);
+  cursor: pointer;
+}
+
+.about-me p {
+  font-size: 0.9rem;
+}
+
+.links {
+  margin-right: var(--nav-x-margin);
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.links ul li:last-child {
+  margin-right: 0;
+}
+
+.links ul li {
+  margin-right: 30px;
+  font-weight: 500;
+}

@@ -1,0 +1,59 @@
+.blogs {
+  margin: 50px auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.blog {
+  background-color: #f1f1f1;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.blog img {
+  width: 100%;
+  max-height: 600px;
+}
+
+.blog *:not(img) {
+  padding: 0 2rem;
+}
+
+.blog h5,
+.blog footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.blog header {
+  margin-top: 15px;
+}
+
+.blog p {
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 8px;
+}
+
+.blog button {
+  background-color: transparent;
+  border: none;
+  box-shadow: 0 0 1px 1px black;
+  padding: 8px;
+  font-size: 1rem;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  transition: all 0.2s ease-out;
+}
+
+.blog button:hover {
+  cursor: pointer;
+  box-shadow: none;
+  color: white;
+  background-color: black;
+}

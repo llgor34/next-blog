@@ -1,0 +1,64 @@
+.blogContainer {
+  margin-top: 50px;
+  display: flex;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 20px;
+}
+
+.blogContainer article {
+  width: 500px;
+}
+
+.blogContainer .sidebar {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  max-height: 700px;
+}
+
+.blogContainer article,
+.sidebar {
+  background-color: #fcfafa;
+  padding: 30px;
+  font-size: 1rem;
+}
+
+.blogContainer header {
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.description img {
+  max-width: 400px;
+  margin-top: 30px;
+}
+
+.content {
+  margin: 30px 0;
+}
+
+.enterText {
+  margin-top: 30px;
+}
+
+.firstFooter {
+  border-top: 1px #ccc solid;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.sidebar h3 {
+  margin: 20px 0;
+}
+
+.openingTag {
+  margin-bottom: 20px;
+}
